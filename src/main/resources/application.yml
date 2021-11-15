@@ -1,0 +1,11 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          username: kimsunhak
+          password: '{cipher}bfb8cb68d290393fc35480a25be1d67fa14d5c90ce562cadf77c931cb682c5ed58be8ba578e96df1d1c94da7c639f08841b0dfc4ad1f138064704482cd793b08'
+          uri: https://github.com/kimsunhak/cloud-config.git
